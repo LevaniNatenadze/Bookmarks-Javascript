@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body onload="fetchBookmark()">
+    <div class="wrapper">
+        <header>
+            <div class="headText">
+                <h3>Bookmarks</h3>
+            </div>
+        </header>
+        <section id="box">
+
+                <div class="formText">
+                    Bookmark your favourite websites
+                </div>
+                <form id="myForm">
+                    <div class="class-group">
+                        <label for="siteName">Site Name</label>
+                        <input type="text" id="siteName" placeholder="Website Name..." >
+                        <label for="urlSite">Site URL</label>
+                        <input id="urlSite" placeholder="Site URL..." >
+                        <input type="submit" class="btn" value="Submit">
+                    </div>
+                </form>
+
+        </section>
+        <section id="results">
+            <div class="marketing">
+                <div id="bookmarksResults">
+
+
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <h4>Lev &copy;</h4>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.3.1.js">
+    </script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

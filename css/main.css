@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.headText h3 {
+    border-bottom: 1px solid grey;
+    padding: 1em 0;
+    width: 80%;
+    /*padding: 3em 0;*/
+    /*margin: 3em 0;*/
+
+}
+
+#box {
+    margin: 0;
+    padding: 50px;
+    width: 70%;
+    background: gainsboro;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.formText {
+    font-size: 2em;
+    text-transform: capitalize;
+    color: grey;
+}
+
+#box .formText, input {
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    box-shadow: 0 1px 0 grey;
+}
+
+form .btn {
+    background: crimson;
+    margin: 10px 0;
+    width: 20%;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 30px;
+}
+
+.wall {
+    background: lightgrey;
+    margin: 5px 20px;
+    padding: 10px 20px;
+    width: 72%;
+}
+
+#footer {
+    margin:40px 0;
+}
+
+a.btn {
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: orangered;
+    margin: 15px;
+
+}
+
+a.btn-delete {
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 9px;
+    text-decoration: none;
+    background: red;
+    margin-left:0;
+
+}
